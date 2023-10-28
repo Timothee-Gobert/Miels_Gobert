@@ -1,0 +1,108 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#Fond{
+    position: fixed; z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    width: 100vw;
+}
+main{
+    padding-top: 1vw;
+}
+header nav ul{
+    padding: 0;
+}
+@media (min-width: 1200px){
+    .header_logo {
+        border-radius: 100%;
+        width: 12%;
+        padding: 1vw;
+    }
+    .header_logo{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav li{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        padding-bottom: 3px;
+    }
+    #bandeau{
+        background-image: url("../img/globale/bg-photo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100vw; /* pourcentage de la largeur de l'ecran */
+        height: 15vw; /* pourcentage de la hauteur de l'ecran */
+    }
+}
+@media (min-width: 600px) and (max-width: 1199px) {
+    .header_logo img{
+        border-radius: 100%;
+        width: 12%;
+        padding: 1vw;
+    }
+    .header_logo{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        padding-bottom: 3px;
+    }
+    #bandeau{
+        background-image: url("../img/globale/bg-photo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100vw; /* pourcentage de la largeur de l'ecran */
+        height: 15vw; /* pourcentage de la hauteur de l'ecran */
+    }
+}
+@media  (max-width: 599px) {
+    .header_logo img{
+        border-radius: 100%;
+        width: 12%;
+        padding: 1vw;
+    }
+    .header_logo{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav span{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        padding-bottom: 3px;
+    }
+    #bandeau{
+        background-image: url("../img/globale/bg-photo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100vw; /* pourcentage de la largeur de l'ecran */
+        height: 15vw; /* pourcentage de la hauteur de l'ecran */
+    }
+}
