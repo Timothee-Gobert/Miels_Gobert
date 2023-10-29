@@ -5,34 +5,14 @@
     <title>Miels Gobert de Bourgogne France artisanal ACCUEIL</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/globale.css">
     <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/glob.css">
+    <script src="../JavaScript/add_html.js"></script>
 </head>
 
 <body>
     <img id="Fond" src="../img/globale/logo.jpg" alt="Bzzzzz">
-    <header>
-        <div class="header_logo">
-            <img src="../img/globale/logo.jpg" alt="Logo de l'entreprise">
-        </div>
-        <nav>
-            <ul>
-                <span>
-                    <li><a href="index.html">ACCUEIL</a></li>
-                </span>
-                <span>
-                    <li><a href="les_miels.html">LES MIELS</a></li>
-                </span>
-                <span>
-                    <li><a href="Actualités.html">ACTUALITES</a></li>
-                </span>
-                <span>
-                    <li><a href="formulaire.html">FORMULAIRE CONTACT</a></li>
-                </span>
-            </ul>
-        </nav>
-        <div id="bandeau"></div>
-    </header>
+    <div w3-include-html="./Layouts/header.html"></div>
     <main>
         <div class="article">
             <h2>Bienvenue sur le site des Miels&nbsp;Gobert</h2>
@@ -56,7 +36,8 @@
         </div>
     </main>
     <footer>
-
+        <div w3-include-html="./Layouts/footer.html"></div>
+        <script>includeHTML();</script>
     </footer>
 </body>
 

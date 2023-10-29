@@ -5,110 +5,38 @@
     <title>Miels Gobert de Bourgogne France artisanal les miels</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/globale.css">
     <link rel="stylesheet" href="../CSS/les_miels.css">
+    <link rel="stylesheet" href="../CSS/glob.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <script src="../JavaScript/add_html.js"></script>
+    <script src="../JavaScript/afficher_articles.js"></script>
+
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-            <img class="header_logo" src="../img/globale/logo.jpg" alt="Logo de l'entreprise">
-            <nav>
-                <ul class="boutons_menu">
-                    <span>
-                        <li><a href="index.html">ACCUEIL</a></li>
-                    </span>
-                    <span>
-                        <li><a href="les_miels.html">LES MIELS</a></li>
-                    </span>
-                    <span>
-                        <li><a href="Actualités.html">ACTUALITES</a></li>
-                    </span>
-                    <span>
-                        <li><a href="formulaire.html">FORMULAIRE CONTACT</a></li>
-                    </span>
-                </ul>
-            </nav>
-        </div>
-
-    </header>
-    <div id="bandeau"></div>
+    <!-- header -->
+    <div w3-include-html="./Layouts/header.html"></div>
+    <!-- /header -->
     <main>
         <h1>Les miels</h1>
         <div class="conteneur">
-            <div class="article">
-                <div class="box_photo">
-                    <a href="miel_acacia_250.html">
-                        <img class="photo_miel" src="../img/produits/miel-acacia-250g.jpg"
-                            alt="Pot de miel d'acacia en 250 g">
-                    </a>
-                </div>
-                <div class="texte_article">
-                    <a class="titre_article" href="miel_acacia_250.html">
-                        <h3>Miel d'acacia - 250g</h3>
-                    </a>
-                    <p class="prix"><span class="bigger">5,</span><sup>00</sup><span class="bigger">€</span>T.T.C.</p>
-                    <div class="ajout_panier">
-                        <input class="choix_valeur" type="number" />
-                        <button class="bouton_ajout">Ajouter au panier</button>
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <div class="box_photo">
-                    <a href="miel_acacia_250.html">
-                        <img class="photo_miel" src="../img/produits/miel-acacia-250g.jpg"
-                            alt="Pot de miel d'acacia en 250 g">
-                    </a>
-                </div>
-                <div class="texte_article">
-                    <a class="titre_article" href="miel_acacia_250.html">
-                        <h3>Miel d'acacia - 500g</h3>
-                    </a>
-                    <p class="prix"><span class="bigger">5,</span><sup>00</sup><span class="bigger">€</span>TTC</p>
-                    <div class="ajout_panier">
-                        <input class="choix_valeur" type="number" />
-                        <button class="bouton_ajout">Ajouter au panier</button>
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <div class="box_photo">Image Élément 3</div>
-                <div class="texte_article">
-                    <h3>Miel d'acacia - 1kg</h3>
-                    <p class="prix"><span class="bigger">5,</span><sup>00</sup><span class="bigger">€</span>TTC</p>
-                </div>
-            </div>
-            <div class="article">
-                <div class="box_photo">Image Élément 4</div>
-                <div class="texte_article">
-                    <h3>Miel de printemps - 250g</h3>
-                    <p class="prix"><span class="bigger">5,</span><sup>00</sup><span class="bigger">€</span>TTC</p>
-                </div>
-            </div>
-            <div class="article">
-                <div class="box_photo">Image Élément 5</div>
-                <div class="texte_article">
-                    <h3>Miel de printemps - 500g</h3>
-                    <p class="prix"><span class="bigger">5,</span><sup>00</sup><span class="bigger">€</span>TTC</p>
-                </div>
-            </div>
-            <div class="article">
-                <div class="box_photo">Image Élément 3</div>
-                <div class="texte_article">
-                    <h3>Miel de printemps - 1kg</h3>
-                    <p class="prix"><span class="bigger">5,</span><sup>00</sup><span class="bigger">€</span>TTC</p>
-                </div>
-            </div>
+            
+        </div>
+        <div class="conteneur">
+
+
         </div>
     </main>
     <footer>
-
+        <div w3-include-html="./Layouts/footer.html"></div>
     </footer>
+
+    <script>includeHTML();</script>
+    <script>afficher_articles();</script>
+
 </body>
 
 </html>
