@@ -14,7 +14,7 @@ function afficher_un_article(article) {
     const photo = document.createElement("img");
     photo.appendChild(document.createElement("img"));
     photo.setAttribute("class", "photo_miel");
-    photo.setAttribute("src", "../img/produits/" + article.type + (article.poids ? article.poids : "") + ".jpg");
+    photo.setAttribute("src", "../img/produits/" + article.type + (article.poids ? article.poids : "") + ".png");
     photo.setAttribute("alt", "Pot de miel d'acacia en 250 g");
 
     lien.appendChild(photo);
