@@ -1,9 +1,9 @@
 {
     "articles": [
         {
+            "reference": "aca_250_2023",
             "type": "acacia",
             "nom": "Miel d'acacia",
-            "reference": "aca_250_2023",
             "poids": 250,
             "quantite": 65,
             "prix": 5

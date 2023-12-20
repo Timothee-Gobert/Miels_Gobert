@@ -74,6 +74,8 @@ h1 {
       }
 
       .bouton_ajout {
+        margin-left: 1vh;
+        border-radius: 10px;
         background-color: rgba(255, 231, 153, 0.562);
         border: 3px solid rgba(255, 166, 0, 0.87);
       }
@@ -83,16 +85,26 @@ h1 {
 
 }
 
-
-@media (min-width: 600px) and (max-width: 1199px) {
+@media (min-width: 600px) and (max-width: 1200px) {
   h1 {
     font-size: 10vw;
   }
 
   .conteneur {
-    grid-template-columns: 100vw;
+    background-color: aqua;
+    grid-template-columns: 50%;
+    grid-template-columns: 50vw;
   }
-
+  .article {
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px rgba(194, 127, 2, 0.301);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    
   .text_box {
     font-size: 4vw;
   }
@@ -104,7 +116,7 @@ h1 {
   }
 
   .conteneur {
-    grid-template-columns: 90vw;
+    grid-template-columns: 100vw;
   }
 
   .text_box {
@@ -112,8 +124,14 @@ h1 {
   }
 
   .article {
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px rgba(194, 127, 2, 0.301);
+    display: flex;
     flex-direction: column;
-  }
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
 
   .box_photo {
     .photo_miel {
